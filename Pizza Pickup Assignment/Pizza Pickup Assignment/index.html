@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <title>FOODIE PIZZA</title>
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "jumbotron">
+        <h1>FOODIE PIZZAS</h1>
+        <h3>You can edit your order after clicking on the Get Price button.</h3>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="well" id="leftCol">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <div class = "form-group">
+              <form id= "pizzaOrder">
+                <label for="size">Choose Your Size of Pizza:</label>
+                <select class="form-control" id="size">
+                  <option value= 50.00>Small: $50.00</option>
+                  <option value= 80.00>Medium: $80.00</option>
+                  <option value= 100.00>Large: $100.00</option>
+                  <option value= 115.00>Extra-Large: $115.00</option>
+                </select>
+                <label for="toppings1">Choose Your First Topping:</label>
+                <select class="form-control" id="toppings1">
+                  <option value= 0>Plain (Just Cheese and sauce)</option>
+                  <option value= 6.00>Pepperoni (+$6.00)</option>
+                  <option value= 6.00>Sausage (+$6.00)</option>
+                  <option value= 4.50>Pineapple (+$4.50)</option>
+                  <option value= 4.50>Corn (+$4.50)</option>
+                  <option value= 5.50>Mushrooms (+5.50)</option>
+                  <option value= 5.50>Onions (+5.50)</option>
+                  <option value= 5.50>Green Peppers (+5.50)</option>
+                  <option value= 5.50>Chicken (+5.50)</option>
+                  <option value= 5.50>Green Olives (+5.50)</option>
+                </select>
+                <label for="toppings2">Second Topping:</label>
+                <select class="form-control" id="toppings2">
+                  <option value= 0>none</option>
+                  <option value= 6.00>Pepperoni (+$6.00)</option>
+                  <option value= 6.00>Sausage (+$6.00)</option>
+                  <option value= 4.50>Pineapple (+$4.50)</option>
+                  <option value= 4.50>Corn (+$4.50)</option>
+                  <option value= 5.50>Mushrooms (+5.50)</option>
+                  <option value= 5.50>Onions (+5.50)</option>
+                  <option value= 5.50>Green Peppers (+5.50)</option>
+                  <option value= 5.50>Chicken (+5.50)</option>
+                  <option value= 5.50>Green Olives (+5.50)</option>
+                </select>
+                <label for="toppings3">Third Topping:</label>
+                <select class="form-control" id="toppings3">
+                  <option value= 0>none</option>
+                  <option value= 6.00>Pepperoni (+$6.00)</option>
+                  <option value= 6.00>Sausage (+$6.00)</option>
+                  <option value= 4.50>Pineapple (+$4.50)</option>
+                  <option value= 4.50>Corn (+$4.50)</option>
+                  <option value= 5.50>Mushrooms (+5.50)</option>
+                  <option value= 5.50>Onions (+5.50)</option>
+                  <option value= 5.50>Green Peppers (+5.50)</option>
+                  <option value= 5.50>Chicken (+5.50)</option>
+                  <option value= 5.50>Green Olives (+5.50)</option>
+                </select>
+                <label for="toppings4">Fourth Topping:</label>
+                <select class="form-control" id="toppings4">
+                  <option value= 0>none</option>
+                  <option value= 6.00>Pepperoni (+$6.00)</option>
+                  <option value= 6.00>Sausage (+$6.00)</option>
+                  <option value= 4.50>Pineapple (+$4.50)</option>
+                  <option value= 4.50>Corn (+$4.50)</option>
+                  <option value= 5.50>Mushrooms (+5.50)</option>
+                  <option value= 5.50>Onions (+5.50)</option>
+                  <option value= 5.50>Green Peppers (+5.50)</option>
+                  <option value= 5.50>Chicken (+5.50)</option>
+                  <option value= 5.50>Green Olives (+5.50)</option>
+                </select>
+                <button type="submit" class="btn btn-success" id="orderButton">Get Price</button>
+                <button type="button" class="btn btn-danger" value="Refresh Page" onClick="window.location.reload()" id="cancelButton">Cancel</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="well" id="rightCol">
+          </div>
+        </div>
+      </div>
+      <div id="customerOrder">
+        <div class="well" id="displayWell">
+          <h1 class="orderTitle">Your Pizza Total:</h1>
+            <ul>
+
+
+            </ul>
+        </div>
+      </div>
+
+      <a href="FinalOrder.html">
+      <div id="checkout">CHECKOUT</div>
+      </a>
+    </div>
+  </body>
+</html>

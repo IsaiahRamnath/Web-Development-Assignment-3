@@ -1,0 +1,24 @@
+.finalOrder{
+    color: white;
+  height: 280px;
+  width: 470px;
+  background-color:red;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 70px;
+ text-align: center;
+  justify-content: center;
+  font-family: Kinetika;
+}
+
+.time{
+  color: black;
+  font-size: 35px;
+  font-family: Kinetika;
+  text-align: center;
+}
+
